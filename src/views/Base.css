@@ -1,0 +1,71 @@
+.h-box{  
+  display: flex;
+  width: 100%;
+  height: 100%;  
+  align-items:center;
+  flex-flow: column; 
+  border: 1px solid red;
+}
+.h-box-start{  
+  display: flex;
+  width: 100%;  
+  flex-flow: column;
+  justify-content:flex-start;
+  align-items: flex-start;
+  border: 1px solid red;
+}
+.h-box-normal{  
+  display: flex;
+  flex:1;
+  flex-flow: column;
+  justify-content:flex-start;
+  align-items: flex-start;
+  border: 1px solid red;
+  margin: 3px;
+}
+.v-box{  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content:flex-start;  
+  /* align-items: flex-end; */
+  border: 1px solid blue;
+}
+.white-line{
+  font-family: PingFangSC-Regular;
+  font-size: 20px;
+  color: #333333;
+  letter-spacing: 0;
+  border-bottom:1px solid #C8C8C8;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+.white-line-bottom{
+  position:absolute;
+  width: 100%;
+  background: #FFFFFF;
+  font-family: PingFangSC-Regular;
+  font-size: 20px;
+  text-align: center;
+  color: #333333;
+  letter-spacing: 0;
+  border-top:2px solid #C8C8C8;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  bottom:0;
+}
+.newtopic{
+  position:absolute;
+  width:70px; 
+  height:70px;  
+  background-image: url("../assets/huati/newtopic.svg");
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  background-position: 0 0;
+  /* background-repeat: no-repeat;  */
+  bottom:120px;
+  right:0px;
+}
